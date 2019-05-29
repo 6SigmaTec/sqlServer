@@ -1,0 +1,6 @@
+#!/bin/bash
+clear
+echo "Conectado em sqlServer (192.168.5.11)"
+sqlcmd -S 192.168.5.11 -d ERP -U sa -P sadmin 
+
+#sqlcmd -S 192.168.5.11 -d ERP -U sa -P sadmin -Q "select A3_NREDUZ FROM SA3010"
